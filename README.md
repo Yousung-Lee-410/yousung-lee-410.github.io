@@ -19,7 +19,7 @@ Search `index.html` for `href="#"` and replace those placeholders with your real
 
 ## Publish with GitHub Pages
 
-1. Copy `index.html`, `style.css`, and the `assets` folder into your `<username>.github.io` repository.
+1. Copy `index.html`, `style.css`, and the `assets` folder into your `yousunglee.github.io` repository.
 2. Commit and push to `main`.
 3. In GitHub: `Settings → Pages`.
 4. Select `Deploy from a branch`.
