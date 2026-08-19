@@ -26,7 +26,7 @@ Search `index.html` for `href="#"` and replace those placeholders with your real
 5. Choose `main` and `/ (root)`.
 6. Save.
 
-Your site will appear at `https://<username>.github.io`.
+Your site will appear at `https://yousunglee.github.io`.
 
 ## Updating publications
 
