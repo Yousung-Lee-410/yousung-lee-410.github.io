@@ -60,9 +60,9 @@ a:hover {
 }
 
 .name-link {
-  font-weight: 700;
-  font-size: 18px;
   margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -172,8 +172,29 @@ h2 {
 .pub-links {
   display: flex;
   gap: 18px;
-  font-weight: 700;
   font-size: 14px;
+  font-weight: 700;
+}
+
+.publication-video {
+  margin-top: 24px;
+  scroll-margin-top: 24px;
+}
+
+.publication-video video {
+  display: block;
+  width: 100%;
+  max-width: 790px;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  background: #000000;
+  border: 1px solid var(--line);
+}
+
+.video-caption {
+  margin: 9px 0 0;
+  color: var(--muted);
+  font-size: 13px;
 }
 
 .education-item {
