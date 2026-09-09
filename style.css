@@ -69,20 +69,21 @@ a:hover {
 .intro {
   align-self: center;
   max-width: 790px;
-  padding-top: 50px;
+  padding-top: 36px;
 }
 
 .eyebrow {
-  margin: 0;
-  font-size: clamp(30px, 3.6vw, 50px);
+  margin: 0 0 5px;
+  color: var(--muted);
+  font-size: 16px;
   font-weight: 700;
-  line-height: 0.95;
+  line-height: 1;
 }
 
 h1 {
-  margin: 0 0 30px;
-  font-size: clamp(50px, 7vw, 94px);
-  line-height: 0.86;
+  margin: 0;
+  font-size: clamp(44px, 5.5vw, 72px);
+  line-height: 0.95;
   letter-spacing: -0.055em;
   font-weight: 700;
 }
@@ -91,15 +92,24 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 24px;
-  margin-bottom: 42px;
+  margin-top: 24px;
   font-weight: 700;
 }
 
-.lead {
-  max-width: 760px;
-  font-size: clamp(18px, 1.65vw, 24px);
-  line-height: 1.35;
-  letter-spacing: -0.02em;
+.intro-text {
+  max-width: 740px;
+  margin-top: 40px;
+}
+
+.intro-text p {
+  margin: 0 0 15px;
+  font-size: clamp(17px, 1.35vw, 20px);
+  line-height: 1.55;
+  letter-spacing: -0.015em;
+}
+
+.intro-text p:last-child {
+  margin-bottom: 0;
 }
 
 .section {
@@ -244,11 +254,15 @@ footer a {
   }
 
   .intro {
-    padding-top: 40px;
+    padding-top: 26px;
   }
 
   h1 {
-    font-size: clamp(52px, 16vw, 82px);
+    font-size: clamp(44px, 13vw, 68px);
+  }
+
+  .intro-text {
+    margin-top: 34px;
   }
 
   .section {
